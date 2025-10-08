@@ -13,6 +13,7 @@ python-multipart #for file upload
  
  #embeddigs 
  langchain-google-genai
+ sentence_transformers
  
  #pdf parsing
  PyPDF
