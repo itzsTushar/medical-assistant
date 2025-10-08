@@ -7,7 +7,7 @@ def render_chat():
         st.session_state.messages=[]
     
     for msg in st.session_state.messages:
-        st.chat_messages(msg["role"]).markdown(msg["content"])
+        st.chat_message(msg["role"]).markdown(msg["content"])
         
     user_input =st.chat_input("Type Your Question...")
     if user_input:
